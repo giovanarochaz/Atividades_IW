@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    font-family:'Trebuchet MS', sans-serif;
+    background-color: azure;
+}
+
+#container{
+    text-align: center;
+    margin: auto;
+    display: table;
+}
+
+#convert{
+    margin-top: 2%;
+    background-color:rgb(23, 200, 23);
+    height: 50px;
+    width: 150px;
+}
+
+#clear{
+    margin-top: 2%;
+    background-color: #b85252;
+    height: 50px;
+    width: 150px;
+}
+
+#clear:hover{
+    background-color: #803a3a;
+}
+
+#convert:hover{
+    background-color: #1a891e;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    font-size: 2em;
+    color: black;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin: 2%;
+}
